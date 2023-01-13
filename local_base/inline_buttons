@@ -1,0 +1,46 @@
+{
+  "base_request_actions":
+                          {
+                            "Отправить":
+                                        {
+                                          "type": "SendRequest"
+                                        },
+                            "Отмена":
+                                        {
+                                          "type": "ClearRequest"
+                                        }
+                          },
+  "another_chapter_example":
+              {
+                "Текст кнопки1":
+                                      {
+                                        "id": 256,
+                                        "type": "type_for_example1"
+                                      },
+                "Текст кнопки2":
+                                      {
+                                        "id": 257,
+                                        "type": "type_for_example2"
+                                      },
+                "Текст кнопки3":
+                                      {
+                                        "id": 258,
+                                        "type": "type_for_example3"
+                                      },
+                "Текст кнопки4":
+                                      {
+                                        "id": 260,
+                                        "type": "type_for_example4"
+                                      },
+                "Текст кнопки5":
+                                      {
+                                        "id": 263,
+                                        "type": "type_for_example5"
+                                      },
+                "Текст кнопки6":
+                                      {
+                                        "id": 340,
+                                        "type": "type_for_example6"
+                                      }
+              }
+}

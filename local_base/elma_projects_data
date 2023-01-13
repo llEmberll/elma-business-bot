@@ -1,0 +1,185 @@
+{
+  "projects": {
+                "example_project1":    # Этот ключ нужно устанавливать в конфиге на параметр "main_project_name"
+                          {
+                            "id": 0,
+                            "name": "example_project1",   # Ссылка на ключ
+                            "view": "Какой-то проект для примера №1",
+                            "code_name": "project_1",    # Кодовое имя используется в теле веб-запросов
+                            "sections": {
+                                          "example_section1":    # Этот ключ нужно устанавливать в конфиге на параметр "main_section_name"
+                                                        {
+                                                          "id": 0,
+                                                          "name": "example_section1",   # Ссылка на ключ
+                                                          "view": "Какая-то секция для примера №1",
+                                                          "code_name": "section_1",
+                                                          "fields": {
+                                                                      "summary":
+                                                                                {
+                                                                                  "id": 0,
+                                                                                  "name": "summary",    # Ссылка на ключ
+                                                                                  "view": "Резюме",
+                                                                                  "code_name": "__name",    # С __ начинаются системные поля в элме
+                                                                                  "type": "string",
+                                                                                  "required": "1"
+                                                                                },
+                                                                      "description":
+                                                                                {
+                                                                                  "id": 1,
+                                                                                  "name": "description",
+                                                                                  "view": "Описание",
+                                                                                  "code_name": "description",
+                                                                                  "type": "string",
+                                                                                  "required": "0"
+                                                                                },
+                                                                      "author":
+                                                                              {
+                                                                                  "id": 2,
+                                                                                  "name": "author",
+                                                                                  "view": "Автор",
+                                                                                  "code_name": "author",
+                                                                                  "type": "user",
+                                                                                  "required": "0"
+                                                                                },
+                                                                      "status":
+                                                                              {
+                                                                                "id": 3,
+                                                                                "name": "status",
+                                                                                "view": "Статус",
+                                                                                "code_name": "__status",
+                                                                                "type": "status",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "request_type":
+                                                                              {
+                                                                                "id": 4,
+                                                                                "name": "request_type",
+                                                                                "view": "Тип задачи",
+                                                                                "code_name": "request_type",
+                                                                                "type": "select",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "executor":
+                                                                              {
+                                                                                "id": 5,
+                                                                                "name": "executor",
+                                                                                "view": "Исполнитель",
+                                                                                "code_name": "executor",
+                                                                                "type": "user",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "organization":
+                                                                              {
+                                                                                "id": 6,
+                                                                                "name": "organization",
+                                                                                "view": "Подразделение",
+                                                                                "code_name": "organization",
+                                                                                "type": "select",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "customer":
+                                                                              {
+                                                                                "id": 7,
+                                                                                "name": "customer",
+                                                                                "view": "Заказчик",
+                                                                                "code_name": "customer",
+                                                                                "type": "user",
+                                                                                "required": "0"
+                                                                              }
+                                                                    }
+                                                        }
+                                        }
+
+                          },
+                "example_project2":
+                          {
+                            "id": 1,
+                            "name": "example_project2",
+                            "view": "Какой-то проект для примера №2",
+                            "code_name": "project_2",
+                            "sections": {
+                                          "example_section2":
+                                                        {
+                                                          "id": 1,
+                                                          "name": "example_section2",
+                                                          "view": "Какая-то секция для примера №2",
+                                                          "code_name": "section_2",
+                                                          "fields": {
+                                                                      "summary":
+                                                                                  {
+                                                                                    "id": 0,
+                                                                                    "name": "summary",
+                                                                                    "view": "Резюме",
+                                                                                    "code_name": "__name",
+                                                                                    "type": "string",
+                                                                                    "required": "1"
+                                                                                  },
+                                                                      "description":
+                                                                                  {
+                                                                                    "id": 1,
+                                                                                    "name": "description",
+                                                                                    "view": "Описание",
+                                                                                    "code_name": "description",
+                                                                                    "type": "string",
+                                                                                    "required": "0"
+                                                                                  },
+                                                                      "author":
+                                                                                  {
+                                                                                    "id": 2,
+                                                                                    "name": "author",
+                                                                                    "view": "Автор",
+                                                                                    "code_name": "author",
+                                                                                    "type": "user",
+                                                                                    "required": "0"
+                                                                                  },
+                                                                      "status":
+                                                                              {
+                                                                                "id": 3,
+                                                                                "name": "status",
+                                                                                "view": "Статус",
+                                                                                "code_name": "__status",
+                                                                                "type": "status",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "request_type":
+                                                                              {
+                                                                                "id": 4,
+                                                                                "name": "request_type",
+                                                                                "view": "Тип задачи",
+                                                                                "code_name": "request_type",
+                                                                                "type": "select",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "executor":
+                                                                              {
+                                                                                "id": 5,
+                                                                                "name": "executor",
+                                                                                "view": "Исполнитель",
+                                                                                "code_name": "executor",
+                                                                                "type": "user",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "organization":
+                                                                              {
+                                                                                "id": 6,
+                                                                                "name": "organization",
+                                                                                "view": "Подразделение",
+                                                                                "code_name": "organization",
+                                                                                "type": "select",
+                                                                                "required": "0"
+                                                                              },
+                                                                      "customer":
+                                                                              {
+                                                                                "id": 7,
+                                                                                "name": "customer",
+                                                                                "view": "Заказчик",
+                                                                                "code_name": "customer",
+                                                                                "type": "user",
+                                                                                "required": "0"
+                                                                              }
+                                                                    }
+                                                        }
+                                          }
+                          }
+              }
+}

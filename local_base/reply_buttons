@@ -1,0 +1,23 @@
+{
+  "common":
+              [
+                {
+                  "id": 0,
+                  "type": "create_request",
+                  "text": "Создать запрос"
+                },
+                {
+                  "id": 1,
+                  "type": "show_requests",
+                  "text": "Мои запросы"
+                }
+              ],
+  "teamleads":
+              [
+                {
+                  "id": 3,
+                  "type": "administrative",
+                  "text": "Административное"
+                }
+              ]
+}

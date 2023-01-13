@@ -1,0 +1,44 @@
+{
+  "1":
+    {
+      "id": 1,
+      "code_name": "new",
+      "view": "Новая задача"
+    },
+  "2":
+    {
+      "id": 2,
+      "code_name": "in_work",
+      "view": "В работе"
+    },
+  "3":
+    {
+      "id": 3,
+      "code_name": "completed",
+      "view": "Выполнена"
+    },
+  "4":
+    {
+      "id": 4,
+      "code_name": "pending",
+      "view": "На доработке"
+    },
+  "5":
+    {
+      "id": 5,
+      "code_name": "closed",
+      "view": "Принята и закрыта"
+    },
+  "6":
+    {
+      "id": 6,
+      "code_name": "deny",
+      "view": "Отклонена"
+    },
+  "7":
+    {
+      "id": 7,
+      "code_name": "in_develop",
+      "view": "В разработке"
+    }
+}
